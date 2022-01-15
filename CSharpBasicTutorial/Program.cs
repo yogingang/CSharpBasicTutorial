@@ -1,23 +1,19 @@
 ﻿// See https://aka.ms/new-console-template for more information 
-using CSharpBasicTutorial.Tutorial;
 
-var shapes = new List<Abastract.AbstractShape>
-{
-    new Abastract.Rectangle(),
-    new Abastract.Triangle(),
-    new Abastract.Circle()
-};
+using CSharpTutorial.Tutorial.Advance;
+dynamic test;
+//test = new StandardEvents.Test();
+//test.Run();
 
-foreach (var shape in shapes)
-{
-    shape.Draw();
-}
+//test = new NonStandardEvents.Test();
+//test.Run();
 
-/* Output:
-    Drawing a rectangle
-    Performing base class drawing tasks
-    Drawing a triangle
-    Performing base class drawing tasks
-    Drawing a circle
-    Performing base class drawing tasks
-*/
+//dynamic test = new Delegates.Test();
+//test.Run();
+
+//test = new LambdaExpressions.Test();
+//test.Run();
+
+test = new LambdaAdvanced.Test();
+test.Run();
+

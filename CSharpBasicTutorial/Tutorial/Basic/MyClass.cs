@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpBasicTutorial.Tutorial;
+namespace CSharpTutorial.Tutorial.Basic;
 
 /// <summary>
 /// 여러가지 생성자 정의

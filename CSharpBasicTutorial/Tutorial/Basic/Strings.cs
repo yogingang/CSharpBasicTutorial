@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpBasicTutorial.Tutorial
+namespace CSharpTutorial.Tutorial
 {
     public class StringsTest : ITest
     {
