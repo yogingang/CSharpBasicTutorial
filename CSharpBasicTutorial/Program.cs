@@ -2,18 +2,22 @@
 
 using CSharpTutorial.Tutorial.Advance;
 dynamic test;
-//test = new StandardEvents.Test();
-//test.Run();
 
-//test = new NonStandardEvents.Test();
+//test = new GenericList.Test();
 //test.Run();
-
-//dynamic test = new Delegates.Test();
+//test = new GenericDictionary.Test();
 //test.Run();
-
-//test = new LambdaExpressions.Test();
+//test = new GenericCustomClass.Test();
 //test.Run();
-
-test = new LambdaAdvanced.Test();
+//test = new GenericMethod.Test();
+//test.Run();
+//test = new GenericMethodRefactoring.Test();
+//test.Run();
+//test = new GenericDelegate2.Test();
+//test.Run();
+test = new GenericReflection.Test();
 test.Run();
+
+
+
 
