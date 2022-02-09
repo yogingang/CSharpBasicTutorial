@@ -2,22 +2,25 @@
 
 using CSharpTutorial.Tutorial.Advance;
 dynamic test;
-
-//test = new GenericList.Test();
+//test = new LinqBasic.Test();
 //test.Run();
-//test = new GenericDictionary.Test();
+//test = new RestrictionOperators.Test();
 //test.Run();
-//test = new GenericCustomClass.Test();
+//test = new ProjectionOperators.Test();
 //test.Run();
-//test = new GenericMethod.Test();
+//test = new PartitionOperators.Test();
 //test.Run();
-//test = new GenericMethodRefactoring.Test();
+//test = new OrderingOperators.Test();
 //test.Run();
-//test = new GenericDelegate2.Test();
+//test = new GroupingOperators.Test();
 //test.Run();
-test = new GenericReflection.Test();
+//test = new SetOperators.Test();
+//test.Run();
+//test = new AggregatorOperators.Test();
+//test.Run();
+//test = new JoinOperators.Test();
+//test.Run();
+test = new RangesSliceIndexes.Test();
 test.Run();
-
-
 
 
