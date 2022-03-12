@@ -2,10 +2,12 @@
 
 using CSharpTutorial.Tutorial.Advance;
 dynamic test;
-//test = new AbstractFactory.Test();
-//test = new Builder.Test();
-//test = new FactoryMethod.Test();
-//test = new Prototype.Test();
-test = new GenericSingleton.Test();
+//test = new ChainOfResponsibility.Test();
+//test = new Iterator.Test();
+//test = new IteratorWithYield.Test();
+//test = new IteratorFinal.Test();
+//test = new Memento.Test();
+//test = new State.Test();
+test = new TemplateMethod.Test();
 test.Run();
 
